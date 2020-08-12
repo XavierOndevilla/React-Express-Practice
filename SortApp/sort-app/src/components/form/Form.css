@@ -1,0 +1,58 @@
+.form {
+  background-color: #F0EBD8;
+  width: 100%;
+  display: flex;
+  color: #282c34;
+}
+
+.section {
+  width: 90%;
+  margin-left: 1vw;
+  justify-content: center;
+  word-break:break-word;
+}
+
+.errors{
+  padding-left: 1vw;
+  background-color: #D64933;
+  justify-content: center;
+  word-break:break-word;
+  color: white;
+}
+
+.errors > p{
+  margin: 0;
+}
+
+mark{
+  background-color: #FDC79B;
+}
+
+.input-type-label {
+  font-size: calc(10px + 2vmin);
+  margin-top: 1vw;
+  display: block;
+  position: relative;
+}
+
+.input-type-select {
+  font-size: calc(10px + 1vmin);
+  width: 15%;
+}
+
+.textbox-items-label {
+  font-size: calc(10px + 2vmin);
+  margin-top: 1vw;
+  display: block;
+  position: relative;
+}
+
+.textbox-items-textarea {
+  font-size: calc(10px + 1vmin);
+  width: 100%;
+}
+
+.sort-button {
+  margin-top: 1vw;
+  font-size: calc(10px + 1vmin);
+}
